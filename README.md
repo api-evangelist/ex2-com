@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ex2-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ex2.com/
+Ex2 provides low‑carbon web hosting services from Quebec, offering shared hosting, VPS, domain registration and 24/7 multilingual support. Their platform emphasizes sustainability, estimating about 15 kg CO₂e per server per month. The company serves French and English customers, with localized sites and a focus on environmentally friendly hosting solutions.
+
+**Areas:** Hosting · Sustainability · WebHosting · Quebec · GreenTech
+
+## ex2-com on APIs.io
+
+Everything profiled for ex2-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ex2-com/](https://apis.io/providers/ex2-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [ex2-com Compare API](https://apis.io/apis/ex2-com/ex2-com-compare-api/) — The Compare API from ex2-com — 1 operation(s) for compare.
+- [ex2-com Domains API](https://apis.io/apis/ex2-com/ex2-com-domains-api/) — The Domains API from ex2-com — 2 operation(s) for domains.
+- [ex2-com Ex2 Catalogue API](https://apis.io/apis/ex2-com/ex2-com-ex2-catalogue-api-api/) — The Ex2 Catalogue API API from ex2-com — 1 operation(s) for ex2 catalogue api.
+- [ex2-com Migration API](https://apis.io/apis/ex2-com/ex2-com-migration-api/) — The Migration API from ex2-com — 1 operation(s) for migration.
+- [ex2-com Plans API](https://apis.io/apis/ex2-com/ex2-com-plans-api/) — The Plans API from ex2-com — 2 operation(s) for plans.
+- [ex2-com Status API](https://apis.io/apis/ex2-com/ex2-com-status-api/) — The Status API from ex2-com — 1 operation(s) for status.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ex2 Com Agentic Access](https://apis.io/agentic-access/ex2-com/ex2-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Comparison](https://apis.io/schemas/ex2-com/ex2-com-comparison/)
+- [DomainAvailability](https://apis.io/schemas/ex2-com/ex2-com-domain-availability/)
+- [DomainPricing](https://apis.io/schemas/ex2-com/ex2-com-domain-pricing/)
+- [Index](https://apis.io/schemas/ex2-com/ex2-com-index/)
+- [Migration](https://apis.io/schemas/ex2-com/ex2-com-migration/)
+- [Status](https://apis.io/schemas/ex2-com/ex2-com-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ex2 Com Context](https://apis.io/jsonld/ex2-com/ex2-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ex2-com API Rules](https://apis.io/rules/ex2-com/ex2-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ex2 Com Domain Security](https://apis.io/security/ex2-com/ex2-com-domain-security/)
+- [Ex2 Com Vulnerability Disclosure](https://apis.io/security/ex2-com/ex2-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ex2 Com Plans Pricing](https://apis.io/plans/ex2-com/ex2-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ex2.com/)
+- [Documentation](https://help.ex2.com/)
+- [Getting started](https://help.ex2.com/en/category/getting-started-1yzqndm/)
+- [API reference](https://www.ex2.com/developers)
+- [Sign up](https://www.ex2.com/clients/register.php?language=french)
+- [Support](https://help.ex2.com/en/)
+- [Terms of service](https://www.ex2.com/terms-and-conditions)
+- [Privacy policy](https://www.ex2.com/privacy-policy)
+- [Status](https://status.ex2.com/en/)
+
+## API Evangelist rating
+
+**Kin Score 55.5** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 62.6 |
+
+**Agent readiness 50.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ex2-com/](https://apis.io/providers/ex2-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ex2-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ex2-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
